@@ -45,7 +45,7 @@
 					<div id="title">
 						The Anti-Social Media<br>
 						<span style="letter-spacing:4px; font-size:40px">Code Kit</span><br>
-						<a target="_blank" href="" style="letter-spacing:4px">(preview)</a>
+						<a target="_blank" href="http://nothing-to-hide-demo.s3.amazonaws.com/cutscene/cutscene.html" style="letter-spacing:4px">(preview)</a>
 					</div>
 				</div>
 			</div>
@@ -54,8 +54,27 @@
 
 		<!-- Footer & CTA to Nothing To Hide -->
 		<div id="footer">
-			<iframe src="https://back.nothingtohide.cc/embed" width="1000" height="70" scrolling="no"></iframe>
+			Hey
+			<iframe id="embedded" src="https://back.nothingtohide.cc/embed" width="1000" height="70" scrolling="no"></iframe>
 		</div>
 
 	</body>
 </html>
+
+<!-- Piwik -->
+<script type="text/javascript" defer="" async="" src="https://piwik-ncase.rhcloud.com/piwik.js"></script>
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.nothingtohide.cc"]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik-ncase.rhcloud.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "1"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
